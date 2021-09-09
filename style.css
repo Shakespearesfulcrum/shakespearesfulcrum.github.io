@@ -1,11 +1,11 @@
 body{
-	width: 100%;
+	
 
 }
 div{
 	margin:  0 auto;
 	background-color: white;
-	color: grey;
+	color: #4B4240;
 	text-align: center;
 	
 }
@@ -16,9 +16,12 @@ div{
 	color: orange;
 }
 h1{
-	letter-spacing:  -9px;
-	font-size: 10vh;
-	font-family: 'Cutive Mono', monospace;
+	/*letter-spacing:  -9px;*/
+	font-size: 5vw !important;
+	font-family: 'Cutive Mono', monospace !important;
+	text-shadow:  #666 1px 0 6px;
+	margin-bottom: 100px;
+	color: #4B4240;
 	
 }
 .nav{
@@ -33,124 +36,98 @@ h1{
 
 .tery{}
 
-.mainSections{
-min-height: auto;
-padding: 200px;
-text-align: justify;
+.spacer{
+	height:  200px;
 }
 
-.mainSections h1{
-  text-align: left;
+divSections{
+	height: 1000px;
 }
 
+.homeSections{
+	
+	
+	padding: 30px;
+}
 
-/*pattern text*/
+.homeSections p{
+	text-align: justify;
+	font-size:1.5vw;
+	padding-left: 25px;
+	padding-right: 25px;
+}
 
-.rusty-text {
- background: url(tony.reason.jpg) no-repeat center center;
- background-size: cover;
- color: #fff;
- -webkit-text-fill-color: transparent;
- -webkit-background-clip: text;
- -moz-background-clip:text;
- background-clip:text; 
- font-family:Catamaran,sans-serif;
- font-size:5em;
- font-weight: bolder;
- padding:0;
- margin:0;
- text-shadow: 10px 15px 30px rgba(0,0,0,0.3);
- text-align:center;
- /*-webkit-text-stroke: 3px #ffaa00;*/
+.centerDiv{
+	margin: 0 auto;
 }
 
 
 
+.carousel-inner img {
+  margin: auto;
 
-body {
-  font-family: "Archivo Black", sans-serif;
-  /*background: #f4d03f;*/
-  /*display: flex;*/
-  /*flex-direction: column;*/
-  height: 100vh;
-  justify-content: center;
-  align-items: center;
+
 }
 
-.words span {
-  font-size: 5rem;
-  display: inline-block;
-  animation: move 3s ease-in-out infinite;
+.carousel-inner > .item {
+    position: relative;
+    display: none;
+    -webkit-transition: 0.6s ease-in-out left;
+    -moz-transition: 0.6s ease-in-out left;
+    -o-transition: 0.6s ease-in-out left;
+    transition: 0.6s ease-in-out left;
 }
 
-@keyframes move {
-  0% {
-    transform: translate(-30%, 0);
-  }
-  50% {
-    text-shadow: 0 25px 50px rgba(0, 0, 0, 0.75);
-  }
-  100% {
-    transform: translate(30%, 0);
-  }
+
+
+h2{
+	font-size: 7.5vh !important;
+	font-family: 'Cutive Mono', monospace !important;
+	text-shadow:  #666 1px 0 6px;
+	margin-bottom: 60px !important;
+	color: #4B4240;
+}
+h4{
+	font-size: 4.5vh !important;
+	font-family: 'Cutive Mono', monospace !important;
+	text-shadow:  #666 1px 0 6px;
+	color: #4B4240;
+	
 }
 
-.words span:nth-child(2) {
-  animation-delay: 0.5s;
+.fcf-input-group{
+	margin:  0 auto;
+	width: 100% !important;
 }
 
-.words span:nth-child(3) {
-  animation-delay: 1s;
+.fcf-form-group{
+	width: 80% !important;
 }
 
-.words span:nth-child(4) {
-  animation-delay: 1.5s;
+input{width: 80% !important}
+
+textarea{
+	width: 80% !important;
 }
 
-.words span:nth-child(5) {
-  animation-delay: 2s;
+.headingBG{
+	background-color: #ccc;
 }
 
-.words span:nth-child(6) {
-  animation-delay: 2.5s;
+.fcf-body{
+	padding-top: 100px;
 }
 
-.words span:nth-child(7) {
-  animation-delay: 3s;
-}
 
-/*typing font*/
-
-.wrapper {
-  height: 10vh;
-  /*This part is important for centering*/
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.typing-demo {
-  width: 46ch;
-  animation: typing 4s steps(46), blink .5s step-end infinite alternate;
-  white-space: nowrap;
+.navbar {
   overflow: hidden;
-  border-right: 3px solid;
-  font-family: monospace;
-  font-size: 2vh;
+  background-color: #333;
+  position: fixed;
+ 
 }
 
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-    
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
+/*Calendar*/
 
 
-/*aimated text above. line*/
 
+/*End Calendar*/
