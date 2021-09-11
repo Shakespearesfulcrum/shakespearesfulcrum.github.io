@@ -19,7 +19,7 @@ div{
 }
 h1{
 	/*letter-spacing:  -9px;*/
-	font-size: 7vw !important;
+	font-size: 6.0vw !important;
 	font-family: 'Cutive Mono', monospace !important;
 	text-shadow:  #666 1px 0 6px;
 	margin-bottom: 100px;
@@ -94,7 +94,7 @@ h4{
 	font-family: 'Cutive Mono', monospace !important;
 	text-shadow:  #666 1px 0 6px;
 	color: #4B4240;
-	
+	margin-top: 25px !important;
 }
 
 .fcf-input-group{
@@ -113,7 +113,11 @@ textarea{
 }
 
 .headingBG{
-	background-color: #ccc;
+	/*background-color: #ccc;*/
+	background: rgb(149,149,150);
+background: radial-gradient(circle, rgba(149,149,150) 0%, rgba(121,76,9,0.6026785714285714) 35%, rgba(33,98,111,0.3925945378151261) 100%);
+opacity: 0.4;
+max-height: 220px;
 }
 
 .fcf-body{
