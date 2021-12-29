@@ -25,6 +25,11 @@ input{margin-top: 5px;}
 
 textarea{margin-top: 5px;}
 
+.noStyle{
+
+}
+
+
 .menuDiv{
   height: 75px;
   background-color: transparent !important;
@@ -845,6 +850,7 @@ hr {
     color: #fff;
     background-color: #333632;
     border-color: #fff;
+    max-width: 70%;
 }
 
 .form-control {
@@ -868,4 +874,79 @@ hr {
 }
 
 
+
+/*Event Popups*/
+
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+ color: #333632 !important;
+ border: 1px solid white;
+ border-radius: 50%;
+ /*font-weight: bold;*/
+ background-color: #BB7E41;
+ padding: 2px;
+
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: auto;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+  padding: 15px;
+  font-weight: lighter;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;} 
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
+
+.noStyle{
+  text-decoration: none !important;
+  /*color: white !important;*/
+  font-size: 20px;
+  font-family: 'Cinzel', serif;
+  font-weight: 300;
+}
 
