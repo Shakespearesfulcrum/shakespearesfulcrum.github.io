@@ -1,4 +1,6 @@
 
+html{scroll-behavior: smooth}
+
 body{
   background-color: #333632;
   text-align: center;
@@ -16,6 +18,16 @@ height:75px;
 
 }
 
+.navbar{
+  position: sticky !important;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
 section{
   margin:  0 auto;
 }
@@ -25,10 +37,7 @@ input{margin-top: 5px;}
 
 textarea{margin-top: 5px;}
 
-.noStyle{
-
-}
-
+.navbar{position: sticky}
 
 .menuDiv{
   height: 75px;
@@ -107,80 +116,20 @@ hr{
   cursor:pointer;
 
 }
+
+a{
+  text-decoration: none;
+  color: white;
+}
 ul,li{
   padding:0;
   list-style-type: none;
   padding-inline-start: 0px !important;
 }
-.menuboxul{
-  margin:0;
-}
-#menubox .change1 .stick1,.stick2,.stick3{
-  width:100%;
-  height:1px;
-  margin:0;
-  padding:0;
-  background: white;
-  border-radius:10%;
-  transition:0.4s;
-  margin:15% 0 0 -5%;
-}
-.modal{
- margin:0;
- z-index:3; 
-  display:none;
- position:fixed;
- width:100%;
- height:100%;
- background-color:#202321;
-}
-.change .stick1 {
-   background-color:orange;
-    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
-    transform: rotate(-45deg) translate(-9px, 6px);
- 
-}
 
-.change .stick2 {opacity: 0; background-color:orange;}
 
-.change .stick3 {
-   background-color:orange;
-    -webkit-transform: rotate(45deg) translate(-8px, -8px);
-    transform: rotate(45deg) translate(-8px, -8px);
-}
-.modal ul{
-  width:80%;
-  height:80%;
-  background:transparent;
-   position:absolute;
-  color:#fff;
-  top:50%;
-  left:50%;
-  padding:15px;
-  font-family: 'Cinzel', serif;
-  font-weight: 300;
-  -ms-transform: translateX(-50%) translateY(-50%);
-  -webkit-transform: translate(-50%,-50%);
-  transform: translate(-50%,-50%);
-}
-.modal li{
-  color:white;
-  text-align:center;
-  width:100%;
-  height:10%;
-  background:transparent;
-/*   font-size:20px; */
-  font-family: 'Cinzel', serif;
-  font-weight: 300;
-}
-.modal li:hover{
-  color:orange;
-  cursor:pointer;
-  font-family: 'Cinzel', serif;
-  font-weight: 300;
-  font-size:30px;
-  transition:0.4s;
-}
+
+
 
 
 
