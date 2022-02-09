@@ -84,3 +84,11 @@ form{
   -webkit-text-fill-color: transparent;
   font-weight: bold;
 }
+
+.gallery img{
+	max-width: 40%;
+}
+.artistspeak div{
+	text-align: center !important;
+	color: white;
+}
