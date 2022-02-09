@@ -34,7 +34,7 @@ text-align: right !important;
 footer{
 	margin-top: 300px;
 	color: grey;
-	text-align:center;
+	text-align:center !important;
 }
 
 h1{
