@@ -37,6 +37,10 @@ footer{
 	text-align:center !important;
 }
 
+footer p{
+	text-align:center !important;
+}
+
 h1{
 	color: white;
 	font-family: Poppins;
