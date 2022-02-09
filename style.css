@@ -39,5 +39,44 @@ footer{
 
 h1{
 	color: white;
-	font-weight: lighter;
+	font-family: Poppins;
+	/*font-weight: lighter;*/
+}
+
+button{
+	text-decoration: none;
+}
+
+button:focus {outline:0;}
+
+form{
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+.Contact{
+	text-align: center;
+}
+
+.map{
+	margin-top: 50px;
+}
+.invisibles img{width: 200px}
+
+#invisPhoto {
+	margin-top: 175px;
+}
+
+.invisibles{
+	color: white;
+	text-align: justified;
+}
+.invisCopy{
+	margin-top: 75px;
+}
+.gradientFade{
+	 background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: bold;
 }
