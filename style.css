@@ -4,9 +4,13 @@ body{
 	text-align: center !important;
 	margin:  0 auto;
 	background-color: #666 !important;
+	color: white;
 }
 p{
 text-align: justify;
+}
+h5{
+	color: white;
 }
 section{
 	margin:  0 auto;
@@ -16,6 +20,8 @@ section{
 	background-color: #666;
 
 }
+.carousel{margin-top: 100px}
+
 nav{
 
 font-family: 'Poppins', sans-serif;
@@ -32,13 +38,16 @@ text-align: right !important;
 }
 
 footer{
-	margin-top: 300px;
+	margin-top: 100px;
 	color: grey;
 	text-align:center !important;
+	display: block;
+	padding: 50px;
 }
 
 footer p{
 	text-align:center !important;
+	color: white;
 }
 
 h1{
@@ -65,7 +74,7 @@ form{
 .map{
 	margin-top: 50px;
 }
-.invisibles img{width: 200px}
+.invisibles img{width: 300px}
 
 #invisPhoto {
 	margin-top: 175px;
@@ -91,4 +100,116 @@ form{
 .artistspeak div{
 	text-align: center !important;
 	color: white;
+}
+section .press{
+	color: white;
+}
+section p{
+color: white;
+}
+section h3{
+	color: white;
+	text-align: left;
+}
+
+
+a{
+	text-decoration: none;
+	outline: none;
+}
+.press{
+	width:  50%;
+	text-align: center;
+}
+.press img{
+	max-height: 200px;
+}
+.title{
+	font-style: italic;
+}
+
+.article img{
+	text-align: left;
+}
+.left{
+	text-align: left;
+}
+
+.btn-primary {
+	outline: none;
+	border-color: white !important;
+}
+
+.artistsspeak{
+	width: 50%;
+}
+
+.floatL{
+	float:  left;
+	width: 50%;
+	display: inline-block;
+}
+
+
+.address{
+	width: 500px;
+	text-align: center;
+	padding: 50px;
+}
+
+.address p{
+	text-align: center;
+}
+
+.location{
+	margin-top: 120px;
+	height: 600px !important;
+}
+
+.col-sm{
+	border:  1px solid white;
+}
+
+.form-conrtol{
+	background-color: grey !important;
+}
+
+
+textarea::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+textarea:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+textarea::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+textarea:-ms-input-placeholder {  
+color: white !important;  
+}
+
+
+input::-webkit-input-placeholder {
+color: white !important;
+}
+ 
+input:-moz-placeholder { /* Firefox 18- */
+color: white !important;  
+}
+ 
+input::-moz-placeholder {  /* Firefox 19+ */
+color: white !important;  
+}
+ 
+input:-ms-input-placeholder {  
+color: white !important;  
+}
+
+i{
+	color: white;
+	font-size: 24px;
+	padding: 15px;
 }
