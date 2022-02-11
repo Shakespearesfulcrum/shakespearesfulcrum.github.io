@@ -15,11 +15,15 @@ h5{
 section{
 	margin:  0 auto;
 	text-align: center !important;
-	width: 80%;
+	width: 90%;
 	margin-top: 50px;
 	background-color: #666;
 
 }
+
+
+
+
 .carousel{margin-top: 100px}
 
 nav{
@@ -141,7 +145,7 @@ a{
 }
 
 .artistsspeak{
-	width: 50%;
+	width: 100%;
 }
 
 .floatL{
