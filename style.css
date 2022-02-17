@@ -22,7 +22,19 @@ section{
 }
 
 
+figcaption{
+	color: #CCC;
+}
+figure{
+	background-color: transparent;
+}
 
+
+
+.img-thumbnail{
+	background-color: transparent !important;
+    border: none !important;
+}
 
 .carousel{margin-top: 100px}
 
