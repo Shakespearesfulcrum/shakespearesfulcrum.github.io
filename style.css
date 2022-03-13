@@ -22,6 +22,10 @@ section{
 }
 
 
+.materials{
+	font-style: italic;
+}
+
 figcaption{
 	color: #CCC;
 }
